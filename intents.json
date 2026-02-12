@@ -18,7 +18,8 @@
             "what is a variable",
             "how do variables work in python", 
             "assigning values to variables", 
-            "how to use variables"
+            "how to use variables",
+            "how to define a variable"
         ],
         "data_types": [
             "what are data types",
