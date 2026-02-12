@@ -1,0 +1,106 @@
+{
+    "intents":
+    {
+        "greeting": [
+            "hi", 
+            "hello", 
+            "hey", 
+            "hiya", 
+            "good morning", 
+            "howdy"
+        ],
+        "python_basics": [
+            "what is python", 
+            "explain python", 
+            "why use python"
+        ],
+        "variables": [
+            "what is a variable",
+            "how do variables work in python", 
+            "assigning values to variables", 
+            "how to use variables"
+        ],
+        "data_types": [
+            "what are data types",
+            "what are lists", 
+            "python dictionaries",
+            "list vs tuples",
+            "tuples in python",
+            "explain dictionaries",
+            "difference between tuples and dictionaries",
+            "what is a class",
+            "how to use classes"
+            
+        ],
+        "loops": [
+            "how do loops work", 
+            "what is a for loop", 
+            "python while loop example",
+            "explain while loop",
+            "difference between a while and a for loop"
+        ],
+        "functions": [
+            "what is a function", 
+            "how to define a function in python", 
+            "python def keyword",
+            "how to use a function",
+            "what are functions",
+            "what do functions do"
+        ],
+        "errors": [
+            "what is a TypeError", 
+            "why do i get an error", 
+            "python error message",
+            "what kind of errors are there",
+            "errors in python"
+        ],
+        "goodbye": [
+            "bye", 
+            "goodbye", 
+            "see you later", 
+            "until later"
+        ]
+    },
+    "responses":
+    {
+        "greeting": [
+            "Hello, welcome.\n", 
+            "Hi, how can I help?\n", 
+            "Hello! How may I assist?\n"
+        ],
+        "python_basics": [
+            "Python is a versatile programming language known for its readability.\n", 
+            "Python is a high-level, general-purpose programming language.\n", 
+            "Python is a versatile computer programming language often used to build websites and software, automate tasks, and analyze data.\n",
+            "In Python you can use variables, functions and other objects to program very versatile code.\n"
+        ],
+        "variables": [
+            "Variables are symbolic names that refer to objects or values stored in your computer's memory.\nYou can assign a value using the syntax variable_name = value.\n",
+            "Variables act as an address for where the data is stored in memory.\nYou can assign a value using the syntax variable_name = value.\n", 
+            "Variables are containers for storing data values.\nYou can assign a value using the syntax variable_name = value.\n"
+        ],
+        "data_types": {
+            "default": ["In Python, data types are used to classify and categorise data. Since everything in Python is an object, these types are actually classes, and variables are instances of these classes.\n",
+                        "Data types are classifications that specify which type of value a variable has and what operations can be performed on it.\n"],
+            "int": ["Integer are Whole numbers without a decimal point (e.g., 5, -10, 1000).\n"],
+            "float": ["Floating points are numbers containing a decimal point (e.g., 3.14, -0.001).\n"],
+            "str": ["Strings are sequences of Unicode characters enclosed in quotes (e.g., 'Hello World'). Strings are immutable.\n"],
+            "list": ["Lists are ordered, mutable collections of items that can be of different types (e.g., [1, 'apple', 3.5]).\n"],
+            "tuple": ["Tuples are ordered, immutable collections (e.g., (10, 20, 30)). Once created, its elements cannot be changed.\n"],
+            "dict": ["Dictionaries are collections of key-value pairs. They are ordered (since Python 3.7), mutable and indexed by keys (e.g., {'name': 'Alice', 'age': 25}).\n"],
+            "bool": ["Boolean represent one of two values: 'True' or 'False'. They are essential for conditional logic and comparisons.\n"]
+            },
+        "loops": {
+            "default": ["A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string)\n",
+                        "Loops in Python are used to repeat actions efficiently. The main types are For loops (counting through items) and While loops (based on conditions).\n"],
+            "for": ["For loops are used when you have a block of code which you want to repeat a fixed number of times.\n"],
+            "while": ["While loops enables you to execute a block of code repeatedly as long as a given condition remains true.\n"]
+            },
+        "functions": [
+            "A function is a block of code which only runs when it is called. A function can return data as a result.\n",
+            "Python Functions are a block of statements that does a specific task.\n"
+            ],
+        "errors": ["Errors are problems in a program that causes the program to stop its execution. On the other hand, exceptions are raised when some internal events change the program's normal flow.\n"],
+        "goodbye": ["Thank you for the chat, goodbye.", "Goodbye, hope to see you soon!"]
+    }
+ }
